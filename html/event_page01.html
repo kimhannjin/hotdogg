@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>event</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/animate.css" />
+	<link rel="stylesheet" type="text/css" href="../css/default.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<script type="text/javascript">
+	$(function () {
+	    baloonUp();
+
+	    function baloonUp() {
+	        $('.mouse_icon').animate({
+	            'top': 830
+	        }, 500, null, baloonDown);
+	    }
+
+	    function baloonDown() {
+	        $('.mouse_icon').animate({
+	            'top': 820
+	        }, 1000, null, baloonUp);
+	    }
+	});
+
+	$(function () {
+	    baloonUp();
+
+	    function baloonUp() {
+	        $('.e_child').animate({
+	            'top': 1220
+	        }, 500, null, baloonDown);
+	    }
+
+	    function baloonDown() {
+	        $('.e_child').animate({
+	            'top': 1210
+	        }, 1000, null, baloonUp);
+	    }
+	});
+	</script>
+</head>
+<body>
+	<div class="e01_body_container">
+		<div class="video">
+			<video src="../images/event01.mp4" autoplay="autoplay" loop="loop" alt="video"></video>
+		</div>
+		<div class="mouse_icon">
+			<img src="../images/mouse.png" />
+		</div>
+		<img src="../images/이벤트페이지01_06.png" />
+			<div class="e_child">
+				<img src="../images/child01.png" />
+			</div>	
+		<div class="e_text01">
+			<strong>우리는 수수(水守)한다.</strong>
+		</div>	
+		<div class="e_text02">
+			<p>하나의 물, 한 번의 기부로 물이 부족하여 수인성 질병으로 고통받는 아이들을 <br>
+			도와줄 수 있습니다. 생산품 수익의 40%는 그밖에 다른 물부족 국가에 기부됩니다.</p>
+		</div>
+		<div class="buy">
+			<a href="#"><strong>구매하기</strong></a>
+		</div>
+	</div>
+	<div class="back"><a href="./index.html">메인으로 돌아가기</a></div>
+</body>
+
+
+</html>

@@ -1,0 +1,78 @@
+body{overflow-x: hidden;}
+
+#header_container .header_inner {margin:0 auto; right:0;}
+#header_container .header_inner .logo {position:absolute; width:150px; height:28px; top:37px; right:375px;} 
+#header_container .header_inner .top {display:block; vertical-align:middle; font-size:16px; color:#151616;}
+#header_container .header_inner .menu01 {position:absolute; left:380px; top:57px; padding-bottom:-8px; font-size:14px;}
+#header_container .header_inner .menu01 li {float:left; margin-right:15px;}
+#header_container .header_inner .menu01 li:hover {padding-bottom:2px; border-bottom:1.2px solid #151616;}
+#header_container .header_inner .menu02 {padding-top:118px; margin-left:1100px;}
+#header_container .header_inner .menu02 li {float:left; margin-left:20px; }
+#header_container .header_inner .menu02 li:hover {color:#1368e5; font-weight:bold; }
+
+#body_container {
+	width:1920px; height:500px; margin-top:65px;}
+
+	 *{margin:0;padding:0;}
+    ul,li{list-style:none;}
+#body_container .slide{height:500px;overflow:hidden;position:relative;}
+#body_container .slide ul{width:calc(100% * 4);display:flex;transition:1s;}
+#body_container .slide li{width:calc(100% / 4);height:500px;}
+#body_container .slide li:nth-child(1){}
+#body_container .slide li:nth-child(2){}
+#body_container .slide li:nth-child(3){}
+#body_container .slide li:nth-child(4){}
+#body_container .slide input{display:none;}
+#body_container .slide .bullet{position:absolute;bottom:40px;left:0;right:0;text-align:center;z-index:10;}
+#body_container .slide .bullet label{width:10px;height:10px;border-radius:10px;border:0px solid #d7d7d7;display:inline-block;background:#fff;font-size:0;transition:0.5s;cursor:pointer;}
+    
+
+.background_img { z-index:683px; width:1920px; height:0px;background-image:url("../images/메인_07.png");}
+
+/*애니메이션*/
+#box {animation-iteration-count:1; animation-delay:1s;}
+#box02 {animation-iteration-count:1; animation-delay:2s;}
+
+.text01 .mt {display:block; font-size:26px; margin-top:-2830px; margin-left:1053px;} 
+.text01 .sub_text01 {margin-left:1053px; font-size:16px; line-height:1.6} 
+.str_content{font-size:26px; color:#46a2fd;}
+.str_title{font-size:30px; color:#46a2fd;}
+
+.text02{position: absolute; top:1580px; font-size:26px; left:300px; font-weight: bold;}
+.text02 .sub_text02 { font-size: 16px; font-weight: normal; line-height:1.6}
+.show {position:relative; padding:5px 30px 5px 30px; width:170px; height:68px; border:3px solid; color:#151616; border-radius:15px; margin-left:300px; top:810px; font-size:16px;}
+
+.main_move01 {position: absolute; top:683px;}
+.main_move02 {position: absolute; top:1300px;}
+
+.text03{margin-top:1800px; font-size:26px; margin-right:370px; font-weight:bold; text-align:right;}
+.text03 .sub_text03 {font-size:16px; font-weight:normal;line-height:1.6}
+
+.s01_body_container {margin-top:65px;}
+.s01_text {}
+.s01_text .s01_text01 {position:absolute; top:1240px; left:950px; line-height:1.4}
+.s01_text .s01_text01 strong {font-size:26px; color:#1c52b5;}
+.s01_text .s01_text01 p {font-size:16px; margin-top:20px;}
+
+.s01_text .s01_text02 {position: absolute; top:1550px; left:460px; line-height: 1.4}
+.s01_text .s01_text03 {position: absolute; top:2655px; left:970px; line-height:1.4}
+.s01_text .s01_text03 strong {font-size:22px; color:#1c52b5;}
+
+
+.s02_body_container {margin-top:64px;}
+
+.e01_body_container .video {width:1920px; height:1080px;}
+/*.e01_body_container .video video {width:1920px; height:1080px;}*/
+.e01_body_container .mouse_icon {position: absolute; top:835px; left:902px;}
+.e01_body_container .e_child {position:absolute; top:1193px; left:335px;}
+.e_child img {width:750px; height:660px;}
+.e01_body_container .e_text01 strong {font-size:36px; position:absolute; top:1319px; left:1184px;}
+.e01_body_container .e_text02 {font-size:16px; position: absolute; top:1754px; right:385px; text-align:right; line-height:1.4}
+.e01_body_container .buy {font-size:36px; position: absolute; top:2226px; left:894px; }
+
+.back {font-size:26px; font-weight:bold; color:#1c52b5; position:absolute; bottom:-2100px; left:50px;}
+
+
+
+
+

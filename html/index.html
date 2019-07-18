@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Waterborne disease</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/animate.css" />
+	<link rel="stylesheet" type="text/css" href="../css/default.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<script type="text/javascript">
+	  var mySwiper = new Swiper ('.swiper-container', {
+		loop:true,
+		speed:500,
+		autoheight:true,
+		autoplay: {
+    		delay: 5000,
+  		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		pagination: {
+    		el: '.swiper-pagination',
+    		type: 'progressbar',
+  		},
+	  })
+	function confirm_alert(node) {
+    return confirm("조금만 더 기다려주세요*^^*");
+}
+	</script>
+
+</head>
+<body>
+	
+	<header id="header_container">
+		<div class="header_inner">
+			<div class="top">
+				<nav class="menu01">
+					<ul>
+						<li><a href="#">KR</a></li>
+						<li><a href="#">EN</a></li>
+						<li><a href="#">CN</a></li>
+						<li><a href="#">JP</a></li>
+						<li><a href="login.html">로그인</a></li>
+						<li><a href="#">회원가입</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</nav>
+				<h1 class="logo">
+					<a href="index.html"><img src="../images/logo.png" alt="logo" /></a>
+				</h1>
+				
+				<nav class="menu02">
+					<ul>
+						<li><a href="./sub_page01.html">수인성 질병이란?</a></li>
+						<li><a href="./sub_page02.html">수인성 질병 종류</a></li>
+						<li><a href="#" onclick="return confirm_alert(this);">정기후원</a></li>
+						<li clss="jj"><a href="#" onclick="return confirm_alert(this);">재정보고</a></li>
+					</ul>
+				</nav>
+			</div>	
+		</div>
+	</header>
+	<div id="body_container">
+	<!-- Slider main container -->
+	<div class="swiper-container">
+		<!-- Additional required wrapper -->
+	    <div class="swiper-wrapper">
+			<!-- Slides -->
+	        <div class="swiper-slide"><img src="../images/main01_06_06.jpg" /></div>
+	        <div class="swiper-slide"><img src="../images/main02_06.jpg" /></div>
+	        <div class="swiper-slide"><img src="../images/main03_06.jpg" /></div>
+	        <div class="swiper-slide"><img src="../images/main04_07.jpg" /></div>
+	    </div>
+	    <div class="swiper-pagination"></div>
+	</div>
+	</div>
+	<section class="background_img">
+	</section>
+		<div id="example">
+			<div>
+				<img src="../images/메인_099_07.png" />
+			</div>
+		</div>
+	
+	<div class="text01">
+		<strong class="mt">수인성 질병에 무방비로 노출되는 아이들</strong><br>
+        <p class="sub_text01">전 세계 인구 중 <strong class="str_content">3억2,300만 명</strong>이 오염된 식수를 마시고 있으며<br>
+        해마다 340만 명이 수인성 질병으로 사망합니다. 그 중 아프리카에서만 <br>
+        1억6,400만 명이 수인성 질병에 무방비로 노출되어 있습니다.<br></p>
+	</div>
+	<div class="main_move02 box animated bounceInLeft" id="box02">
+		<img src="../images/main_move02.png">
+	</div>
+    <div class="text02">
+        <strong class="str_title">내일</strong>을 바꾸는 첫걸음,<br><br>
+        <p class="sub_text02">세계 인구 중 약 3억 명이 오염된 식수에 노출되어 있습니다.<br>
+        이로 인해 해마다 340만 명이 사망하고 있으며 그 숫자는 꾸준히 늘어납니다.<br>
+        아이들의 내일을 만드는 이벤트에 동참해주세요.</p>
+    </div>
+    <span class="show"><a href="./event_page01.html">이벤트 참여하기</a></span>
+    <div class="main_move01 box animated bounceInRight" id="box">
+    	<img src="../images/main_move01.png" alt="children"/>
+    </div>
+    <div class="text03">
+    	실제 아프리카 자연재해의 <strong class="str_title">85%</strong>가 가뭄에 의해 발생한 피해로,<br>
+		평균 1,000~1,500여 명이 하나의 수동 펌프로 생활하고 있습니다.<br><br>
+		<p class="sub_text03">일부 지역에서는 3,000명에 이르며, 여기에 가축까지 함께 사용하여 그 숫자는 훨씬 불어납니다.<br>
+		이러한 원인으로 지하수가 쉽게 오염되고 펌프의 패킹이 금세 닳고, 나사가 풀어지는 등의 고장이 잦아집니다.</p>
+    </div>
+</body>
+
+<style type="text/css">
+	.swiper-container {
+            width: 100%;
+        }
+        .swiper-container .swiper-silde img {width:100%;}
+        .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {background:#151616}
+        .swiper-button-next, .swiper-container-rtl .swiper-button-prev {color:#fff; right:30px;}
+</style>
+
+
+
+</html>

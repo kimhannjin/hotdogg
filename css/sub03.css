@@ -1,0 +1,19 @@
+#body_container01 strong {margin-left:380px; display:inline-block; margin-bottom:50px;}
+#body_container01 .box {margin-top:1000px; width:1100px; /*height:200px;*/ background-color:#fff; margin:auto; border:1px solid #1e90ff; border-top:45px solid #1e90ff; 
+	padding:40px;}
+#body_container01 a {font-size:22px; font-weight:bold; color:#fff; position:absolute; top:262px; left:380px;}
+#body_container .select {width:1072px; height:77px; border:1px solid #151616; margin:auto; margin-bottom:0;border-left:0; border-right:0; }
+#body_container .select .s01 { line-height:5.3; width:154px; height:77px; background-color: #f4f4f4; font-weight:bold; color: #151616;}
+#body_container .select .s02 { line-height:5.3; width:154px; height:77px; background-color: #f4f4f4; font-weight:bold; color: #151616;}
+#body_container .select .s03 {width:1072px; height:77px; background-color:#f4f4f4; font-weight:bold; color:#000; padding-top:35px; display:inline-block;}
+
+.check_box #radio_box label {background-color:#c15b5b;}
+
+.text_box input[type="text"] {width:13%;}
+
+#body_container02 a {font-size:22px; font-weight:bold; color:#fff; position:absolute; top:595px; left:380px;}
+#body_container02 {margin-top:50px;}
+#body_container02 .box {margin-top:1000px; width:1100px; height:300px; background-color:#fff; margin:auto; border:1px solid #1e90ff; border-top:45px solid #1e90ff; 
+	padding:40px;}
+
+#body_container02 .bold_text {font-size:22px; color:#000; margin-bottom:20px; display:inline-block;}
